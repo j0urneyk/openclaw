@@ -1595,6 +1595,9 @@ export const en: TranslationMap & {
       content: "Content",
       words: "{count} words",
       lines: "lines",
+      overwrite: "Overwrite",
+      conflictHint:
+        "This file changed in the agent workspace after this draft was started. Reload to take the workspace version, or Overwrite to replace it with this draft.",
     },
   },
   debug: {
@@ -3593,6 +3596,7 @@ export const en: TranslationMap & {
     header: {
       selfLearning: "Self-learning",
       selfLearningAria: "Toggle autonomous self-learning",
+      weeklyReviewsPaused: "Weekly reviews paused. Enable cron in Automation settings.",
       selfLearningTooltip:
         "Capture corrections and review completed work as reusable skills. Automatic mode applies scanner-approved captures to Skills.",
     },
